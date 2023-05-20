@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--true指当用户点击或者触摸该控件的状态。默认为false；
+    一般用于设置按钮颜色/图片的设置。-->
+    <item android:state_pressed="true">
+       <shape android:shape="rectangle">
+            <corners android:radius="8dp"/>
+           <solid android:color="@color/item_bg_color"/>
+       </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp"/>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+</selector>

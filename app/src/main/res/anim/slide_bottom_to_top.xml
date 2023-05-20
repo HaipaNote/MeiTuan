@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <translate
+        android:duration="500"
+        android:fromYDelta="100.0%"
+        android:toYDelta="10.000002%" />
+    <!--duration:动画持续时间
+        fromYdelta：动画开始时，界面在y轴的位置
+        toYDelta：结束位置
+    -->
+    <alpha
+        android:duration="500"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+    <!--
+    fromAlpha：起始透明度
+    toAlpha：结束透明度
+    -->
+
+</set>
